@@ -36,11 +36,21 @@ public class EvilPolygonsChallenge {
 		int polygons= Integer.parseInt(polygon);
 	
 	//5. Use the robot to draw the number of polygons the user requested.
+	for (int i = 0; i < polygons; i++) {
 		
+	
+			
 		
+		josh.setSpeed(10);
 		josh.penDown();
-		josh.move(15);
-		
+		josh.turn(90);
+		josh.move(200);
+		josh.turn(140);
+		josh.move(160);
+		josh.turn(90);
+		josh.move(160);
+		}
+	}
 		//6. Make it so your shapes do not overlap
 
 		//7. Challenge: add more colors to the Option Dialog.
@@ -49,4 +59,4 @@ public class EvilPolygonsChallenge {
 
 
 
-}
+
